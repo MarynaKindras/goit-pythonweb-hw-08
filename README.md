@@ -76,7 +76,7 @@ DB_URL=postgresql+asyncpg://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOS
 ## Docker
 ### 1️⃣ Running PostgreSQL via Docker
 
-# Load variables from .env 
+Load variables from .env 
 ```bash
 source .env
 ```
@@ -91,7 +91,7 @@ docker run --name contacts-db \  (docker run --name contacts-db postgres)
   -d postgres
 ```
 
-# Check container
+Check container
 ```bash
 docker ps
 ```
