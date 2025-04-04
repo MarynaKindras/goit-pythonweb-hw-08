@@ -83,7 +83,7 @@ source .env
 
 ### 2️⃣ FastAPI via container
 ```bash
-docker run --name contacts-db \  (docker run --name contacts-db postgres)
+docker run --name contacts-db postgres
   -e POSTGRES_DB="${POSTGRES_DB}" \
   -e POSTGRES_USER="${POSTGRES_USER}" \
   -e POSTGRES_PASSWORD="${POSTGRES_PASSWORD}" \
