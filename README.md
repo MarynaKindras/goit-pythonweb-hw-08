@@ -78,7 +78,7 @@ DB_URL=postgresql+asyncpg://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOS
 
 Load variables from .env 
 ```bash
-source .env
+.\.env
 ```
 
 ### 2️⃣ FastAPI via container
